@@ -1,0 +1,21 @@
+{
+    "status": true,
+    "data": {
+        "presensi_harian": {
+            "jml_hari_efektif": 30,
+            "jml_sakit": 4,
+            "jml_izin": 3,
+            "jml_alfa": 1,
+            "jml_hadir": 22,
+            "jml_terlambat": 2,
+            "persentase_hadir": 73
+        },
+        "presensi_kegiatan": {
+            "jml_kegiatan": 10,
+            "jml_hadir": 8,
+            "jml_tidak_hadir": 2,
+            "persentase_hadir": 80
+        }
+    },
+    "pesan": "Ok"
+}

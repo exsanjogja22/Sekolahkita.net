@@ -1,0 +1,10 @@
+{
+    "status": true,
+    "pesan": "Berhasil mengambil data keaktifan kelas online",
+    "data": {
+        "total_kbm": 0,
+        "total_join_kbm": 0,
+        "total_nojoin_kbm": 0,
+        "persentase_join_kbm": 0
+    }
+}

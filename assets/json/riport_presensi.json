@@ -1,0 +1,43 @@
+{
+    "status": true,
+    "data": {
+        "presensi_harian": {
+            "jml_hari_efektif": 0,
+            "jml_sakit": 0,
+            "jml_izin": 1,
+            "jml_alfa": 0,
+            "jml_hadir": -1,
+            "jml_terlambat": 2,
+            "persentase_hadir": 0
+        },
+        "presensi_kegiatan": {
+            "jml_kegiatan": 5,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_hadir": 0
+        },
+        "list_kegiatan": [
+            {
+                "pk_event_code": "twts",
+                "mk_title": "yw",
+                "pk_created": "2022-12-13 11:34:44"
+            },
+            {
+                "pk_event_code": "10UPB",
+                "mk_title": "Upacara Bendera",
+                "pk_created": "2022-12-13 11:29:23"
+            },
+            {
+                "pk_event_code": "E02",
+                "mk_title": "Extrakulikuler TIK",
+                "pk_created": "2022-12-13 11:29:01"
+            },
+            {
+                "pk_event_code": "02B",
+                "mk_title": "Exstrakulikuler Pramuka",
+                "pk_created": "2022-12-13 10:53:32"
+            }
+        ]
+    },
+    "pesan": "Ok"
+}

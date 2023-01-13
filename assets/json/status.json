@@ -1,0 +1,121 @@
+{
+    "data": [
+        {
+            "id": 25,
+            "author": "null",
+            "nama": "AGUS SATMIYANTO",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "tes",
+            "tanggal": "2022-11-24 17:02:14",
+            "komencount": 0,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg"
+        },
+        {
+            "id": 24,
+            "author": "saya",
+            "nama": "erik santosa",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "Berbagai pilihan integrasi ini dapat dimanfaatkan sekolah sesuai dengan kebutuhan masing-masing dan sesuai dengan realita di sekolah, misalnya ketika kondisi wilayah kurang tersedia koneksi internet maka sekolah dapat memilih metode fingerprint atau sidik jadi siswa, dan ataupun bisa juga menggunakan kartu pelajar siswa yang sekaligus dapat digunakan siswa untuk presensi mandiri saat datang di sekolah.",
+            "tanggal": "2022-11-23 10:08:06",
+            "komencount": 0,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/profile/thumb/1663510186-eriik_thumb.png"
+        },
+        {
+            "id": 23,
+            "author": "saya",
+            "nama": "erik santosa",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "Berbagai pilihan integrasi ini dapat dimanfaatkan sekolah sesuai dengan kebutuhan masing-masing dan sesuai dengan realita di sekolah, misalnya ketika kondisi wilayah kurang tersedia koneksi internet maka sekolah dapat memilih metode fingerprint atau sidik jadi siswa, dan ataupun bisa juga menggunakan kartu pelajar siswa yang sekaligus dapat digunakan siswa untuk presensi mandiri saat datang di sekolah.",
+            "tanggal": "2022-11-23 10:07:47",
+            "komencount": 0,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/profile/thumb/1663510186-eriik_thumb.png"
+        },
+        {
+            "id": 22,
+            "author": "null",
+            "nama": "siswa cobaaa",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "14 desember 2021",
+            "tanggal": "2022-11-20 10:39:26",
+            "komencount": 3,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg"
+        },
+        {
+            "id": 21,
+            "author": "null",
+            "nama": "Apriko Setyawan",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "ini aku coba dari emu yah",
+            "tanggal": "2022-11-13 16:47:41",
+            "komencount": 0,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg"
+        },
+        {
+            "id": 20,
+            "author": "null",
+            "nama": "Apriko Setyawan",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "Ini Status dari postman",
+            "tanggal": "2022-11-13 16:14:54",
+           
+            "komencount": 0,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg"
+        },
+        {
+            "id": 15,
+            "author": "null",
+            "nama": "siswa cobaaa",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "ppppp",
+            "tanggal": "2022-10-22 14:45:48",
+           
+            "komencount": 3,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg"
+        },
+        {
+            "id": 14,
+            "author": "saya",
+            "nama": "erik santosa",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "hai  kaK",
+            "tanggal": "2022-09-26 14:10:04",
+           
+            "komencount": 2,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/profile/thumb/1663510186-eriik_thumb.png"
+        },
+        {
+            "id": 13,
+            "author": "saya",
+            "nama": "erik santosa",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "hai  kak",
+            "tanggal": "2022-09-26 14:08:36",
+           
+            "komencount": 0,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/profile/thumb/1663510186-eriik_thumb.png"
+        },
+        {
+            "id": 12,
+            "author": "saya",
+            "nama": "erik santosa",
+            "tipe": "status",
+            "judul": "null",
+            "detail": "test",
+            "tanggal": "2022-09-26 14:03:50",
+           
+            "komencount": 0,
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/profile/thumb/1663510186-eriik_thumb.png"
+        }
+    ],
+    "pesan": "Data berhasil di ambil",
+    "status": true
+}

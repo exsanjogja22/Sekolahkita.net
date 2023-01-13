@@ -1,0 +1,10 @@
+{
+    "status": false,
+    "data": {
+        "waktu_datang": "",
+        "waktu_pulang": "",
+        "status_datang": "",
+        "status_pulang": ""
+    },
+    "pesan": "Absen tidak ditemukan"
+}

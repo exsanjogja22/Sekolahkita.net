@@ -1,0 +1,529 @@
+{
+    "status": true,
+    "pesan": "jadwal berhasil di ambil",
+    "data": {
+        "tipe_jadwal": "day",
+        "data_jadwal": [
+            {
+                "id": 0,
+                "hari": "Minggu",
+                "jadwal": []
+            },
+            {
+                "id": 1,
+                "hari": "Senin",
+                "jadwal": [
+                    {
+                        "jam": {
+                            "mulai": "08:00:00",
+                            "selesai": "10:00:00"
+                        },
+                        "mapel": "Bahasa Indonesia",
+                        "nama_guru": "guru bk"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Pend. Agama Kristen",
+                        "nama_guru": "Dyah Asri Setyoningsih, S.Pd.K"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Pend.Agm.Islam",
+                        "nama_guru": "Siti Kholifah, S.Pd.I"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Pend Agm Katholik",
+                        "nama_guru": "F. Seilha Romana, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bahasa Jawa",
+                        "nama_guru": "Alun Lestari, S.Pd"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bahasa Indonesia",
+                        "nama_guru": "Retnowati, S.Pd. "
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bhs. Inggris",
+                        "nama_guru": "Eridha Dewi Sepitasari, S.Pd "
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Matematika",
+                        "nama_guru": "Rini Astuti, S.Pd. "
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bhs. Inggris",
+                        "nama_guru": "Easti Yanti Eka Dewi, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Penjaorkes",
+                        "nama_guru": "Bustami Nur Rochman, S.Pd.Kor "
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Pend.Agm.Islam",
+                        "nama_guru": "Agustin Rina Wati, S.Pd"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Pend.Agm.Islam",
+                        "nama_guru": "Satriya Wicaksana, S. Or"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Pend.Agm.Islam",
+                        "nama_guru": "M. Mazrul Wafa, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "DPTM",
+                        "nama_guru": "Adi Dwi Irawan , S.Pd"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "PKK",
+                        "nama_guru": "Susana Purwanti, SE. "
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bhs. Inggris",
+                        "nama_guru": "Anis Ichwati N R, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Sejarah Indonesia",
+                        "nama_guru": "Elisabeth Kadarini, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "PKK",
+                        "nama_guru": "Dra.Titik Supadmiyatun"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Matematika",
+                        "nama_guru": "Dwirini Kurniawati,S.Pd.,M.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "PPKn",
+                        "nama_guru": "Drs. Supriyanto"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Kimia",
+                        "nama_guru": "Sutiyah, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Kimia",
+                        "nama_guru": "Zumaroh, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bhs. Inggris",
+                        "nama_guru": "Sri Indaryati, M.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "PPKn",
+                        "nama_guru": "Senjaya, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Fisika",
+                        "nama_guru": "Sunaryana, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bahasa Indonesia",
+                        "nama_guru": "Yudi Ariesmawati, S.Sn."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bhs. Inggris",
+                        "nama_guru": "FA. SUSILARTO, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Matematika",
+                        "nama_guru": "Sunandar, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bhs. Inggris",
+                        "nama_guru": "Endah Murwani, S.pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Matematika",
+                        "nama_guru": "Ambar Ismutarti, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Bahasa Indonesia",
+                        "nama_guru": "Eny Kusrini, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Seni Budaya",
+                        "nama_guru": "R. Donny Asmara Hadi, S.Sn."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "12:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Penjaorkes",
+                        "nama_guru": "Sutapa, S.Pd."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "hari": "Selasa",
+                "jadwal": [
+                    {
+                        "jam": {
+                            "mulai": "10:00:00",
+                            "selesai": "12:00:00"
+                        },
+                        "mapel": "Bahasa Indonesia",
+                        "nama_guru": "guru bk"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "hari": "Rabu",
+                "jadwal": [
+                    {
+                        "jam": {
+                            "mulai": "08:00:00",
+                            "selesai": "23:59:00"
+                        },
+                        "mapel": "Matematika",
+                        "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "hari": "Kamis",
+                "jadwal": [
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Elektro",
+                        "nama_guru": "Drs. Bambang Junaedi"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TKJ",
+                        "nama_guru": "Ika Wahyu Widayati, S.Kom."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TKJ",
+                        "nama_guru": "Fitri Rahayuningsih, S.Kom."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TKJ",
+                        "nama_guru": "Novitasari, S.Kom."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TITL",
+                        "nama_guru": "Surismanto, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TAV",
+                        "nama_guru": "Naafi Aryanta, S.Pd"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Pengelasan",
+                        "nama_guru": "Aziz Ramadhan, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TAV",
+                        "nama_guru": "Sumarwan"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TAV",
+                        "nama_guru": "Elisabet Kristanti, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Pengelasan",
+                        "nama_guru": "WIDODO SUMARSONO"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TAV",
+                        "nama_guru": "Dewi Pitasari, S.Pd. "
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Pengelasan",
+                        "nama_guru": "Isbani, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TKJ",
+                        "nama_guru": "Aprilia Yustina, S.Pd., M.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TITL",
+                        "nama_guru": "Samsumuin Haraha , S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TAV",
+                        "nama_guru": "NURMIYATI S.Pd"
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Pengelasan",
+                        "nama_guru": "Ani Sesiana Nurhayati,S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TKJ",
+                        "nama_guru": "Tri Susilawati, ST,M.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TITL",
+                        "nama_guru": "Sapto Budiyono, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Pengelasan",
+                        "nama_guru": "Isdiarif, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Pengelasan",
+                        "nama_guru": "Sukardi Santoso, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif T. Pengelasan",
+                        "nama_guru": "Nur Syahid, S.Pd., M.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TITL",
+                        "nama_guru": "Widiastuti, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TAV",
+                        "nama_guru": "Sri Utami, S.Pd."
+                    },
+                    {
+                        "jam": {
+                            "mulai": "13:00:00",
+                            "selesai": "17:00:00"
+                        },
+                        "mapel": "Produktif TAV",
+                        "nama_guru": "Susi Widiyastuti, S.Pd. "
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "hari": "Jumat",
+                "jadwal": [
+                    {
+                        "jam": {
+                            "mulai": "06:00:00",
+                            "selesai": "23:00:00"
+                        },
+                        "mapel": "Bahasa Indonesia",
+                        "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "hari": "Sabtu",
+                "jadwal": []
+            }
+        ]
+    }
+}

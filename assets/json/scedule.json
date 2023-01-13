@@ -1,0 +1,7 @@
+{
+    "status": true,
+    "pesan": "jadwal berhasil di ambil",
+    "data": {
+        "tipe_jadwal": "date"
+    }
+}

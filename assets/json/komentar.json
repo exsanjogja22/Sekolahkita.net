@@ -1,0 +1,32 @@
+{
+    "pesan": "Berhasil di ambil",
+    "data": [
+        {
+            "komentar_id": 97,
+            "komentar_nama": "siswa cobaaa",
+            "komentar_isi": "Ieje",
+            "komentar_tanggal": "03 Nov, 2022 19:09",
+            "source": "siswa",
+            "photo": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg"
+        },
+        {
+            "komentar_id": 95,
+            "komentar_nama": "Ir Drs Erik Santoso, Msc.M.Kom",
+            "komentar_isi": "test",
+            "komentar_tanggal": "01 Nov, 2022 14:55",
+            "source": "guru",
+            "photo": "https://smk1contoh.sekolahkita.net/assets/images/guru/thumb/1662987263-home-one-img_thumb.png"
+        },
+        {
+            "komentar_id": 93,
+            "komentar_nama": "siswa cobaaa",
+            "komentar_isi": "ppp",
+            "komentar_tanggal": "22 Oct, 2022 14:46",
+            "source": "siswa",
+            "photo": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg"
+        }
+    ],
+    "notifToken": "null",
+    "countall": 3,
+    "status": true
+}

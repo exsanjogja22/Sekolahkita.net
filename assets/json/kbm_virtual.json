@@ -1,0 +1,54 @@
+{
+    "pesan": "Materi berhasil diambil",
+    "data": {
+        "row": [
+            {
+                "id_kbm": "66",
+                "judul": "yyyppp",
+                "tanggal_kbm": "2023-01-12",
+                "jam_mulai": "07:00:00",
+                "jam_selesai": "08:15:00",
+                "status_live": "none",
+                "url_kbm_live": "https://smk1contoh.sekolahkita.net/app/student/elearning/live_kbm/66",
+                "nama_pelajaran": "Biologi",
+                "nama_guru": "Thilal Ghanim",
+                "photo": "https://smk1contoh.sekolahkita.net/assets/images/guru/thumb/1662987263-home-one-img_thumb.png",
+                "total_materi": "2",
+                "daftar_materi": [
+                    {
+                        "id": "53",
+                        "judul": "Materi Web Developer",
+                        "mapel": "Matematika"
+                    },
+                    {
+                        "id": "54",
+                        "judul": "Limit Fungsi",
+                        "mapel": "Matematika"
+                    }
+                ]
+            },
+            {
+                "id_kbm": "68",
+                "judul": "Test materi kbm",
+                "tanggal_kbm": "2023-01-13",
+                "jam_mulai": "08:30:00",
+                "jam_selesai": "09:00:00",
+                "status_live": "none",
+                "url_kbm_live": "https://smk1contoh.sekolahkita.net/app/student/elearning/live_kbm/68",
+                "nama_pelajaran": "Sejarah Indonesia",
+                "nama_guru": "Thilal Ghanim",
+                "photo": "https://smk1contoh.sekolahkita.net/assets/images/guru/thumb/1662987263-home-one-img_thumb.png",
+                "total_materi": "1",
+                "daftar_materi": [
+                    {
+                        "id": "57",
+                        "judul": "PEMBELAJARAN 1 MATRIKS",
+                        "mapel": "Matematika"
+                    }
+                ]
+            }
+        ],
+        "totalData": "2"
+    },
+    "status": true
+}

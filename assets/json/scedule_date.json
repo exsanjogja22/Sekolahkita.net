@@ -1,0 +1,155 @@
+{
+    "status": true,
+    "pesan": "jadwal berhasil di ambil",
+    "data": {
+        "tipe_jadwal": "date",
+        "data_jadwal": [
+            {
+                "id": 0,
+                "hari": "Minggu",
+                "jadwal": []
+            },
+            {
+                "id": 1,
+                "hari": "Senin",
+                "jadwal": [
+                    {
+                        "tanggal": "2022-11-14",
+                        "data_tanggal": [
+                            {
+                                "tanggal": "2022-11-14",
+                                "jam": {
+                                    "mulai": "08:00:00",
+                                    "selesai": "10:00:00"
+                                },
+                                "mapel": "Bahasa Indonesia",
+                                "nama_guru": "guru bk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "hari": "Selasa",
+                "jadwal": [
+                    {
+                        "tanggal": "2022-11-15",
+                        "data_tanggal": [
+                            {
+                                "tanggal": "2022-11-15",
+                                "jam": {
+                                    "mulai": "10:00:00",
+                                    "selesai": "12:00:00"
+                                },
+                                "mapel": "Bahasa Indonesia",
+                                "nama_guru": "guru bk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "hari": "Rabu",
+                "jadwal": [
+                    {
+                        "tanggal": "2022-11-23",
+                        "data_tanggal": [
+                            {
+                                "tanggal": "2022-11-23",
+                                "jam": {
+                                    "mulai": "08:00:00",
+                                    "selesai": "23:59:00"
+                                },
+                                "mapel": "Matematika",
+                                "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "hari": "Kamis",
+                "jadwal": [
+                    {
+                        "tanggal": "0000-00-00",
+                        "data_tanggal": [
+                            {
+                                "tanggal": "0000-00-00",
+                                "jam": {
+                                    "mulai": "13:00:00",
+                                    "selesai": "17:00:00"
+                                },
+                                "mapel": "Produktif TAV",
+                                "nama_guru": "Sumarwan"
+                            },
+                            {
+                                "tanggal": "0000-00-00",
+                                "jam": {
+                                    "mulai": "13:00:00",
+                                    "selesai": "17:00:00"
+                                },
+                                "mapel": "Produktif TAV",
+                                "nama_guru": "Elisabet Kristanti, S.Pd."
+                            },
+                            {
+                                "tanggal": "0000-00-00",
+                                "jam": {
+                                    "mulai": "13:00:00",
+                                    "selesai": "17:00:00"
+                                },
+                                "mapel": "Produktif T. Pengelasan",
+                                "nama_guru": "WIDODO SUMARSONO"
+                            },
+                            {
+                                "tanggal": "0000-00-00",
+                                "jam": {
+                                    "mulai": "13:00:00",
+                                    "selesai": "17:00:00"
+                                },
+                                "mapel": "Produktif TAV",
+                                "nama_guru": "Dewi Pitasari, S.Pd. "
+                            },
+                            {
+                                "tanggal": "0000-00-00",
+                                "jam": {
+                                    "mulai": "13:00:00",
+                                    "selesai": "17:00:00"
+                                },
+                                "mapel": "Produktif TAV",
+                                "nama_guru": "Susi Widiyastuti, S.Pd. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "hari": "Jumat",
+                "jadwal": [
+                    {
+                        "tanggal": "2022-11-18",
+                        "data_tanggal": [
+                            {
+                                "tanggal": "2022-11-18",
+                                "jam": {
+                                    "mulai": "06:00:00",
+                                    "selesai": "23:00:00"
+                                },
+                                "mapel": "Bahasa Indonesia",
+                                "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "hari": "Sabtu",
+                "jadwal": []
+            }
+        ]
+    }
+}

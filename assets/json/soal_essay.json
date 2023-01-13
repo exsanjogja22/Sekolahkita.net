@@ -1,0 +1,32 @@
+{
+    "status": true,
+    "data": {
+        "judul": "Simulasi Tugas Essay",
+        "kelas": "11",
+        "jurusan": "Teknik Pengelasan A",
+        "pesan": "Soal berhasil diambil",
+        "soal": {
+            "text": "<p>Simulasi pembuatan tugas Essay!</p>\r\n\r\n<p>Bpk/Ibu guru dapat langsung memasukkan tugas essay disini atau melampirkan bank soal essay yang sudah dibuat sebelumnya.</p>\r\n\r\n<p>Sebagai contoh:</p>\r\n\r\n<p>Kerjakan soal di bawah ini dengan sungguh-sungguh!</p>\r\n\r\n<p>1. Pertanyaan soal...</p>\r\n\r\n<p>2. Perntayaan soal...</p>\r\n\r\n<p>3. Pertanyaan soal...</p>\r\n\r\n<p>4. dst.</p>\r\n\r\n<p>&nbsp;</p>",
+            "status": true,
+            "ext": "",
+            "type": "text",
+            "pesan": "Data berhasil di ambil"
+        },
+        "jawabansaya": {
+            "progress": 0,
+            "filejawban": "",
+            "linkexternal": "",
+            "keterangan": ""
+        },
+        "soal_tipe": "essay",
+        "waktu": {
+            "start_tanggal": "12-10-2022",
+            "end_tanggal": "12-10-2022",
+            "start_time": "08:00:00",
+            "end_time": "23:59:00",
+            "status": "default",
+            "waktu_status": "Sesuai jadwal batas waktu"
+        },
+        "status_tes": "mengerjakan"
+    }
+}

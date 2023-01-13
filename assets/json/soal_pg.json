@@ -1,0 +1,1378 @@
+{
+    "status": true,
+    "data": {
+        "judul": "Test Tugas 1",
+        "kelas": "11",
+        "jurusan": "Teknik Pengelasan A",
+        "pesan": "Soal berhasil diambil",
+        "soal": {
+            "file": "https://smk1contoh.sekolahkita.net/assets/files/bank_soal/1670318485soal-soal-matriks-1pdf.pdf",
+            "status": true,
+            "ext": "pdf",
+            "type": "umum",
+            "pesan": "File berhasil diambil"
+        },
+        "opsijawaban": [
+            {
+                "nomor": 1,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": "selected"
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 2,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": "selected"
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 3,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": "selected"
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 4,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": "selected"
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 5,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": "selected"
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 6,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 7,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 8,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 9,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 10,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 11,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 12,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 13,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 14,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 15,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 16,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 17,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 18,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 19,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 20,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 21,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 22,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 23,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 24,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 25,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 26,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 27,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 28,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 29,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 30,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 31,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 32,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 33,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 34,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 35,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 36,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 37,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 38,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 39,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 40,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 41,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 42,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 43,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 44,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            },
+            {
+                "nomor": 45,
+                "opsi": [
+                    {
+                        "key": "A",
+                        "jawab": "A",
+                        "status": ""
+                    },
+                    {
+                        "key": "B",
+                        "jawab": "B",
+                        "status": ""
+                    },
+                    {
+                        "key": "C",
+                        "jawab": "C",
+                        "status": ""
+                    },
+                    {
+                        "key": "D",
+                        "jawab": "D",
+                        "status": ""
+                    },
+                    {
+                        "key": "E",
+                        "jawab": "E",
+                        "status": ""
+                    }
+                ]
+            }
+        ],
+        "soal_tipe": "option",
+        "waktu": {
+            "start_tanggal": "",
+            "end_tanggal": "",
+            "start_time": "",
+            "end_time": "",
+            "status": "none",
+            "waktu_status": "Tidak ada batas waktu"
+        },
+        "status_tes": "mengerjakan"
+    }
+}

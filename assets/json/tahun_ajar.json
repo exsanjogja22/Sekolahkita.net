@@ -1,0 +1,10 @@
+{
+    "status": true,
+    "pesan": "kelas aktif berhasil di ambil",
+    "data": {
+        "kode": "11TP-A",
+        "nama": "Teknik Pengelasan A",
+        "jenjang": "11",
+        "tahun": "2022/2023"
+    }
+}

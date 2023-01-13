@@ -1,0 +1,37 @@
+{
+    "idkelas": "11TP-A",
+    "pesan": "Data Kosong",
+    "status": true,
+    "data": [
+        {
+            "id": "16",
+            "idkelas": "11TP-A",
+            "nama": "Bahasa Indonesia",
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/mapel/mobile/1668243182-b_indonesia.png"
+        },
+        {
+            "id": "33",
+            "idkelas": "11TP-A",
+            "nama": "Bahasa Jawa",
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/mapel/mobile/1668243543-bahasa_inggris.png"
+        },
+        {
+            "id": "46",
+            "idkelas": "11TP-A",
+            "nama": "Bhs. Inggris",
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/mapel/mobile/1668243355-bahasa_inggris.png"
+        },
+        {
+            "id": "57",
+            "idkelas": "11TP-A",
+            "nama": "DPTM",
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/mapel/mobile/1668243596-ips.png"
+        },
+        {
+            "id": "27",
+            "idkelas": "11TP-A",
+            "nama": "Fisika",
+            "img": "https://smk1contoh.sekolahkita.net/assets/images/mapel/mobile/1668243205-fisika.png"
+        }
+    ]
+}

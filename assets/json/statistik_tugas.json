@@ -1,0 +1,14 @@
+{
+    "status": true,
+    "data": {
+        "tahun": "2022/2023",
+        "semester": "Ganjil",
+        "statistik": {
+            "semua_tugas": 22,
+            "belum_dikerjakan": 4,
+            "jumlah_remidi": 2,
+            "remidi_selesai": 1
+        }
+    },
+    "pesan": "Statistik tugas berhasil diambil"
+}

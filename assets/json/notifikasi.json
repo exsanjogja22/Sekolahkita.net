@@ -1,0 +1,61 @@
+{
+    "status": true,
+    "pesan": "Notifikasi di ambil",
+    "data": [
+        {
+            "dari": "Dwirini Kurniawati,S.Pd.,M.Pd.",
+            "detail": "Limit",
+            "waktu": {
+                "status_waktu": "default",
+                "start_date": "2022-07-04",
+                "end_date": "0000-00-00",
+                "start_time": "12:00:00",
+                "end_time": "17:00:00"
+            }
+        },
+        {
+            "dari": "Ir Drs Erik Santoso, Msc.M.Kom",
+            "detail": "Tes Penugasan Tipe Soal Pilihan Ganda",
+            "waktu": {
+                "status_waktu": "default",
+                "start_date": "2022-10-12",
+                "end_date": "0000-00-00",
+                "start_time": "08:00:00",
+                "end_time": "23:59:00"
+            }
+        },
+        {
+            "dari": "Ir Drs Erik Santoso, Msc.M.Kom",
+            "detail": "cobaaa",
+            "waktu": {
+                "status_waktu": "none",
+                "start_date": "1000-01-01",
+                "end_date": "1000-01-01",
+                "start_time": "00:00:00",
+                "end_time": "00:00:00"
+            }
+        },
+        {
+            "dari": "Ir Drs Erik Santoso, Msc.M.Kom",
+            "detail": "PR AKHIR TAHUN LIBURAN",
+            "waktu": {
+                "status_waktu": "custome",
+                "start_date": "2022-07-14",
+                "end_date": "2022-07-15",
+                "start_time": "12:00:00",
+                "end_time": "16:00:00"
+            }
+        },
+        {
+            "dari": "Ir Drs Erik Santoso, Msc.M.Kom",
+            "detail": "Simulasi Tugas Essay",
+            "waktu": {
+                "status_waktu": "default",
+                "start_date": "2022-10-12",
+                "end_date": "0000-00-00",
+                "start_time": "08:00:00",
+                "end_time": "23:59:00"
+            }
+        }
+    ]
+}

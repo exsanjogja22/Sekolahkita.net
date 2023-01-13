@@ -1,0 +1,146 @@
+{
+    "status": true,
+    "pesan": "Berhasil mengambil data keaktifan KBM",
+    "data": [
+        {
+            "mapel": "Bahasa Indonesia",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Kimia",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Pend.Agm.Islam",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "PPKn",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Pend Agm Katholik",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Seni Budaya",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Fisika",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Penjaorkes",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Bahasa Jawa",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Matematika",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Bhs. Inggris",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Sejarah Indonesia",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "PKK",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Pend. Agama Kristen",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "DPTM",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Produktif T. Pengelasan",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Produktif T. Elektro",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Produktif TITL",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Produktif TKJ",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        },
+        {
+            "mapel": "Produktif TAV",
+            "jml_pertemuan": 0,
+            "jml_hadir": 0,
+            "jml_tidak_hadir": 0,
+            "persentase_kehadiran": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "status": true,
+    "pesan": "Profil berhasil di ambil",
+    "biodata": {
+        "nis": "4016",
+        "nama_siswa": "erik santosa",
+        "tempat_lahir": "Gunungkidul",
+        "tgl_lahir": "2022-09-18",
+        "jenis_kelamin": "L",
+        "agama": "4",
+        "alamat_asli": "Yogyakarta",
+        "alamat_tinggal": "Yogyakarta",
+        "phone": "087839595916",
+        "sekolah_asal": "SMP 1 JOGJA",
+        "tahun_masuk": "2021",
+        "nama_ibu": "Ibuku",
+        "nama_bapak": "Bapaku",
+        "photo": "https://smk1contoh.sekolahkita.net/assets/images/profile/thumb/1663510186-eriik_thumb.png",
+        "notiftoken": ""
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "status": true,
+    "pesan": "Topik berhasil di ambil",
+    "data": [
+        {
+            "id": "0",
+            "nama": "All"
+        },
+        {
+            "id": "12",
+            "nama": "ALGORITMA"
+        },
+        {
+            "id": "28",
+            "nama": "Logika Dasar"
+        },
+        {
+            "id": "29",
+            "nama": "materi 1"
+        },
+        {
+            "id": "30",
+            "nama": "EKOSISTEM"
+        },
+        {
+            "id": "26",
+            "nama": "Kalkulus"
+        },
+        {
+            "id": "25",
+            "nama": "Bilangan"
+        },
+        {
+            "id": "27",
+            "nama": "Matrix"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "pesan": "Materi berhasil diambil",
+    "data": {
+        "mapel": "Matematika",
+        "topik": "Semua Topik",
+        "data": [
+            {
+                "id": "55",
+                "judul": "CONTOH JUDUL MATERI",
+                "jenjang": "11",
+                "materi_type": "file_upload",
+                "count_external_link": 2,
+                "waktu": {
+                    "created": "2022-09-10 11:01:51",
+                    "updated": "2022-09-10 11:01:51"
+                },
+                "guru": {
+                    "nama_guru": " Thilal Ghanim",
+                    "photo": "https://smk1contoh.sekolahkita.net/assets/images/guru/thumb/1662987263-home-one-img_thumb.png",
+                    "nama_pelajaran": "Matematika"
+                }
+            },
+            {
+                "id": "54",
+                "judul": "Limit Fungsi",
+                "jenjang": "11",
+                "materi_type": "file_upload",
+                "count_external_link": 1,
+                "waktu": {
+                    "created": "2022-09-09 10:05:52",
+                    "updated": "2022-09-09 13:05:22"
+                },
+                "guru": {
+                    "nama_guru": " Thilal Ghanim",
+                    "photo": "https://smk1contoh.sekolahkita.net/assets/images/guru/thumb/1662987263-home-one-img_thumb.png",
+                    "nama_pelajaran": "Matematika"
+                }
+            },
+            {
+                "id": "53",
+                "judul": "Materi Web Developer",
+                "jenjang": "11",
+                "materi_type": "article",
+                "count_external_link": 1,
+                "waktu": {
+                    "created": "2022-09-03 09:45:26",
+                    "updated": "2022-09-09 10:10:46"
+                },
+                "guru": {
+                    "nama_guru": " Thilal Ghanim",
+                    "photo": "https://smk1contoh.sekolahkita.net/assets/images/guru/thumb/1662987263-home-one-img_thumb.png",
+                    "nama_pelajaran": "Matematika"
+                }
+            },
+            {
+                "id": "52",
+                "judul": "kalkulus pdf",
+                "jenjang": "11",
+                "materi_type": "file_upload",
+                "count_external_link": 0,
+                "waktu": {
+                    "created": "2022-08-29 10:32:01",
+                    "updated": "2022-08-29 10:32:01"
+                },
+                "guru": {
+                    "nama_guru": "Ambar Ismutarti, S.Pd.",
+                    "photo": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg",
+                    "nama_pelajaran": "Matematika"
+                }
+            },
+            {
+                "id": "51",
+                "judul": "kalkulus ppt",
+                "jenjang": "11",
+                "materi_type": "file_upload",
+                "count_external_link": 0,
+                "waktu": {
+                    "created": "2022-08-29 10:28:49",
+                    "updated": "2022-08-29 10:28:49"
+                },
+                "guru": {
+                    "nama_guru": "Ambar Ismutarti, S.Pd.",
+                    "photo": "https://smk1contoh.sekolahkita.net/assets/images/no-profile.jpeg",
+                    "nama_pelajaran": "Matematika"
+                }
+            }
+        ],
+        "totalData": "11"
+    },
+    "status": true
+}

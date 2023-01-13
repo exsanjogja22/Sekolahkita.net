@@ -1,0 +1,97 @@
+{
+    "data": {
+        "id_materi": "59",
+        "judul_materi": "Materi Kosakata Tes",
+        "nama_guru": "Thilal Ghanim",
+        "nama_pelajaran": "Bahasa Indonesia",
+        "detail": "<p>Testing kuisioner bahasa indonesia</p>",
+        "file": [
+            {
+                "file_extension": "",
+                "media": "undefined",
+                "data_url": "",
+                "judul": ""
+            },
+            {
+                "file_extension": "png",
+                "media": "file_image",
+                "data_url": "https://smk1contoh.sekolahkita.net/assets/files/materi/16730725071png.png",
+                "judul": "Materi Kosakata Tes",
+                "detail": "<p>Testing kuisioner bahasa indonesia</p>"
+            }
+        ],
+        "kuisioner": {
+            "wajib_isi": false,
+            "row": [
+                {
+                    "mc_id": "46",
+                    "mc_judul": "Dapat memahami materi dengan baik",
+                    "opsi_jawaban": [
+                        {
+                            "opsi": "sangat_paham",
+                            "status": "none"
+                        },
+                        {
+                            "opsi": "cukup_paham",
+                            "status": "none"
+                        },
+                        {
+                            "opsi": "kurang_paham",
+                            "status": "selected"
+                        },
+                        {
+                            "opsi": "belum_paham",
+                            "status": "none"
+                        }
+                    ]
+                },
+                {
+                    "mc_id": "47",
+                    "mc_judul": "Dapat menyimpulkan apa yang disampaikan dalam materi",
+                    "opsi_jawaban": [
+                        {
+                            "opsi": "sangat_paham",
+                            "status": "none"
+                        },
+                        {
+                            "opsi": "cukup_paham",
+                            "status": "selected"
+                        },
+                        {
+                            "opsi": "kurang_paham",
+                            "status": "none"
+                        },
+                        {
+                            "opsi": "belum_paham",
+                            "status": "none"
+                        }
+                    ]
+                },
+                {
+                    "mc_id": "48",
+                    "mc_judul": "Dapat menyampaikan kembali materi yang telah di pahami",
+                    "opsi_jawaban": [
+                        {
+                            "opsi": "sangat_paham",
+                            "status": "none"
+                        },
+                        {
+                            "opsi": "cukup_paham",
+                            "status": "none"
+                        },
+                        {
+                            "opsi": "kurang_paham",
+                            "status": "selected"
+                        },
+                        {
+                            "opsi": "belum_paham",
+                            "status": "none"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "status": true,
+    "pesan": "Materi berhasil di ambil"
+}

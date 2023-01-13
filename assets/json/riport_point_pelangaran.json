@@ -1,0 +1,16 @@
+{
+    "status": true,
+    "pesan": "Berhasil mengambil data pelanggaran",
+    "data": {
+        "jml_pelanggaran": 1,
+        "total_skor": 5,
+        "list_pelanggaran": [
+            {
+                "nama_pelanggaran": "Siswa keluar ketika proses belajar mengajar berlangsung dan tidak kembali sampai dengan waktu sekolah usai",
+                "jml_skor": 5,
+                "tipe_pelanggaran": "pelanggaran_ringan",
+                "tanggal_pelanggaran": "2023-01-05"
+            }
+        ]
+    }
+}

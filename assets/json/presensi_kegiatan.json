@@ -1,0 +1,56 @@
+{
+    "status": true,
+    "pesan": "Data event berhasil diambil",
+    "data": [
+        {
+            "mk_kode": "E02",
+            "mk_title": "Extrakulikuler TIK",
+            "mk_description": "Kegiatan extrakulikuler TIK yang diselenggarakan sesiap hari Sabtu",
+            "sudah_presensi": false,
+            "waktu_presensi": "08:49:00 s.d 14:52:00",
+            "button_status": true,
+            "use_photo": false,
+            "use_gps": true,
+            "label_hari": [
+                "Senin",
+                "Selasa",
+                "Rabu",
+                "Kamis",
+                "Jumat"
+            ]
+        },
+        {
+            "mk_kode": "02B",
+            "mk_title": "Exstrakulikuler Pramuka",
+            "mk_description": "kegiatan Extrakulikuler pramuka Wajib di ikuti oleh setiap siswa kelas XI Kegitan ini Mempengaruhi nilai siswa",
+            "sudah_presensi": false,
+            "waktu_presensi": "13:30:00 s.d 16:30:00",
+            "button_status": false,
+            "use_photo": true,
+            "use_gps": true,
+            "label_hari": [
+                "Senin",
+                "Selasa",
+                "Rabu",
+                "Kamis",
+                "Jumat",
+                "Sabtu"
+            ]
+        },
+        {
+            "mk_kode": "10UPB",
+            "mk_title": "Upacara Bendera",
+            "mk_description": "Kegiatan upacara hari senin diikuti oleh seluruh warga sekolah",
+            "sudah_presensi": false,
+            "waktu_presensi": "07:00:00 s.d 15:59:00",
+            "button_status": false,
+            "use_photo": true,
+            "use_gps": false,
+            "label_hari": [
+                "Senin",
+                "Selasa",
+                "Sabtu"
+            ]
+        }
+    ]
+}

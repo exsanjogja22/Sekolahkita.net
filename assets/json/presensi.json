@@ -1,0 +1,14 @@
+{
+    "jam_datang_awal": "07:00:00",
+    "jam_datang_akhir": "21:00:00",
+    "jam_pulang_awal": "17:00:00",
+    "jam_pulang_akhir": "18:00:00",
+    "system_latitude": -8.0495514328808593,
+    "system_longitude": 110.50945872916144,
+    "system_radius": 500,
+    "waktu_datang": "11:43:09",
+    "waktu_pulang": "15:49:14",
+    "status_datang": "",
+    "status_pulang": "Pulang lebih awal"
+    
+}

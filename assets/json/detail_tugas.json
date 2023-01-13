@@ -1,0 +1,42 @@
+{
+    "status": true,
+    "data": {
+        "judul": "Tes Penugasan Tipe Soal Pilihan Ganda",
+        "kelas": "11",
+        "jurusan": "Teknik Pengelasan A",
+        "show_nilai": true,
+        "keterangan": "Simulasi pembuatan tugas tipe soal pilihan ganda",
+        "soal": {
+            "soal_tipe": "option",
+            "soal_jumlah": 10
+        },
+        "jawaban_saya": {
+            "total_jawab": 0,
+            "status_remidi": 0,
+            "file_jawab": "",
+            "status": "selesai"
+        },
+        "guru": {
+            "nama": " Thilal Ghanim",
+            "mapel": "Matematika",
+            "avatar": "https://smk1contoh.sekolahkita.net/assets/images/guru/thumb/1662987263-home-one-img_thumb.png"
+        },
+        "resum_guru": {
+            "catatan": "",
+            "nilai": 0,
+            "persentase": 0,
+            "status_susulan": false
+        },
+        "waktu": {
+            "tipe": "waktu_jadwal",
+            "data_waktu": {
+                "tanggal": "2022-10-12",
+                "jam": {
+                    "mulai": "08:00:00",
+                    "selesai": "23:59:00"
+                }
+            }
+        }
+    },
+    "pesan": "Data berhasil di ambil"
+}

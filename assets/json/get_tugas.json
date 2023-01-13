@@ -1,0 +1,140 @@
+{
+    "status": true,
+    "pesan": "Tugas berhasil di ambil",
+    "data": {
+        "totalTugas": 22,
+        "tugas": [
+            {
+                "id_tugas": "113",
+                "idkbm": "0",
+                "idkelas": "11TP-A",
+                "judul": "Simulasi Tugas Essay",
+                "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom",
+                "nama_pelajaran": "Matematika",
+                "id_pelajaran": "45",
+                "status_tugas": "kadaluarsa",
+                "hasil_pengerjaan": {
+                    "status_remidi": 0,
+                    "status_resume": 0
+                },
+                "soal": {
+                    "jenis_soal": "essay",
+                    "total_soal": null
+                },
+                "waktu": {
+                    "tipe": "waktu_jadwal",
+                    "data_waktu": {
+                        "tanggal": "2022-10-12",
+                        "jam": {
+                            "mulai": "08:00:00",
+                            "selesai": "23:59:00"
+                        }
+                    }
+                }
+            },
+            {
+                "id_tugas": "112",
+                "idkbm": "0",
+                "idkelas": "11TP-A",
+                "judul": "Tes Penugasan Tipe Soal Pilihan Ganda",
+                "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom",
+                "nama_pelajaran": "Matematika",
+                "id_pelajaran": "45",
+                "status_tugas": "kadaluarsa",
+                "hasil_pengerjaan": {
+                    "status_remidi": 0,
+                    "status_resume": 0
+                },
+                "soal": {
+                    "jenis_soal": "option",
+                    "total_soal": "10"
+                },
+                "waktu": {
+                    "tipe": "waktu_jadwal",
+                    "data_waktu": {
+                        "tanggal": "2022-10-12",
+                        "jam": {
+                            "mulai": "08:00:00",
+                            "selesai": "23:59:00"
+                        }
+                    }
+                }
+            },
+            {
+                "id_tugas": "111",
+                "idkbm": "0",
+                "idkelas": "11TP-A",
+                "judul": "Tugas Siang Ini",
+                "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom",
+                "nama_pelajaran": "Bahasa Indonesia",
+                "id_pelajaran": "16",
+                "status_tugas": "kadaluarsa",
+                "hasil_pengerjaan": {
+                    "status_remidi": "0",
+                    "status_resume": 0
+                },
+                "soal": {
+                    "jenis_soal": "option",
+                    "total_soal": "5"
+                },
+                "waktu": {
+                    "tipe": "waktu_range",
+                    "data_waktu": {
+                        "tanggal": {
+                            "mulai": "2022-09-17",
+                            "selesai": "2022-09-24"
+                        },
+                        "jam": {
+                            "mulai": "06:00:00",
+                            "selesai": "23:00:00"
+                        }
+                    }
+                }
+            },
+            {
+                "id_tugas": "110",
+                "idkbm": "0",
+                "idkelas": "11TP-A",
+                "judul": "PR AKHIR TAHUN LIBURAN",
+                "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom",
+                "nama_pelajaran": "Bahasa Indonesia",
+                "id_pelajaran": "16",
+                "status_tugas": "aktif",
+                "hasil_pengerjaan": {
+                    "status_remidi": "0",
+                    "status_resume": 0
+                },
+                "soal": {
+                    "jenis_soal": "essay",
+                    "total_soal": null
+                },
+                "waktu": {
+                    "tipe": "waktu_bebas",
+                    "data_waktu": null
+                }
+            },
+            {
+                "id_tugas": "106",
+                "idkbm": "0",
+                "idkelas": "11TP-A",
+                "judul": "trrtertetd",
+                "nama_guru": "Ir Drs Erik Santoso, Msc.M.Kom",
+                "nama_pelajaran": "Matematika",
+                "id_pelajaran": "45",
+                "status_tugas": "aktif",
+                "hasil_pengerjaan": {
+                    "status_remidi": "0",
+                    "status_resume": 1
+                },
+                "soal": {
+                    "jenis_soal": "option",
+                    "total_soal": "10"
+                },
+                "waktu": {
+                    "tipe": "waktu_bebas",
+                    "data_waktu": null
+                }
+            }
+        ]
+    }
+}
