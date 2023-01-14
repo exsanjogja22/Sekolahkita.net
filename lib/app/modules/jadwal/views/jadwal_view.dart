@@ -41,8 +41,7 @@ class JadwalView extends GetView<JadwalController> {
                   width: double.infinity,
                   height: 115.h,
                   decoration: const BoxDecoration(
-                    gradient:
-                        const LinearGradient(colors: AppColors.gradientColors),
+                    gradient: LinearGradient(colors: AppColors.gradientColors),
                   ),
                   child: Column(
                     children: [

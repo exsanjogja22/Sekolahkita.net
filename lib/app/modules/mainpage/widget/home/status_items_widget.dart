@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
@@ -262,310 +261,307 @@ class PopupPengaturan extends StatelessWidget {
                     builder: (context, scrollController) =>
                         SingleChildScrollView(
                             controller: scrollController,
-                            child: Container(
-                              child: Column(children: [
-                                Padding(
-                                  padding: EdgeInsets.symmetric(
-                                      horizontal: 10.w, vertical: 10.h),
-                                  child: Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text(
-                                        "Laporkan",
-                                        style: GoogleFonts.quicksand(
-                                          color: const Color(0xff155A5F),
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 18.sp,
+                            child: Column(children: [
+                              Padding(
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 10.w, vertical: 10.h),
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "Laporkan",
+                                      style: GoogleFonts.quicksand(
+                                        color: const Color(0xff155A5F),
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 18.sp,
+                                      ),
+                                    ),
+                                    InkWell(
+                                      onTap: () => Get.back(),
+                                      child: CircleAvatar(
+                                        radius: 10,
+                                        backgroundColor: const Color(0xffF97276)
+                                            .withOpacity(0.6),
+                                        child: Icon(
+                                          Icons.close,
+                                          color: Colors.red,
+                                          size: 15.w,
                                         ),
                                       ),
-                                      InkWell(
-                                        onTap: () => Get.back(),
-                                        child: CircleAvatar(
-                                          radius: 10,
-                                          backgroundColor:
-                                              const Color(0xffF97276)
-                                                  .withOpacity(0.6),
-                                          child: Icon(
-                                            Icons.close,
-                                            color: Colors.red,
-                                            size: 15.w,
-                                          ),
+                                    )
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                margin: EdgeInsets.symmetric(
+                                    horizontal: 15.w, vertical: 5.h),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                    border: Border.all(color: Colors.grey)),
+                                child: ListTile(
+                                  onTap: () {
+                                    showDialog(
+                                      context: context,
+                                      builder: (context) => AlertDialog(
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10.r)),
+                                        title: Text(
+                                          'Info',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.black,
+                                              fontSize: 16.sp,
+                                              fontWeight: FontWeight.bold),
                                         ),
-                                      )
-                                    ],
+                                        content: Text(
+                                          'Anda yakin ingin mengajukan pelaporan ?',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.grey,
+                                              fontSize: 14.sp,
+                                              fontWeight: FontWeight.w500),
+                                        ),
+                                        actions: <Widget>[
+                                          TextButton(
+                                            onPressed: () => Get.back(),
+                                            child: Text(
+                                              'Kembali',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                          TextButton(
+                                            onPressed: () {
+                                              Get.back();
+                                              Get.back();
+                                              Get.snackbar("Berhasil",
+                                                  "Laporan Anda akan direspon dalam 2x 24 jam",
+                                                  snackPosition:
+                                                      SnackPosition.BOTTOM,
+                                                  colorText:
+                                                      AppColors.appGreenlight,
+                                                  backgroundColor: AppColors
+                                                      .appGreenlight
+                                                      .withOpacity(0.4));
+                                            },
+                                            child: Text(
+                                              'OK',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  },
+                                  title: Text(
+                                    "Menganding unsur Suku, Agama, Ras, dan Antargolongan",
+                                    style: GoogleFonts.quicksand(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.bold),
                                   ),
                                 ),
-                                Container(
-                                  margin: EdgeInsets.symmetric(
-                                      horizontal: 15.w, vertical: 5.h),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color: Colors.grey)),
-                                  child: ListTile(
-                                    onTap: () {
-                                      showDialog(
-                                        context: context,
-                                        builder: (context) => AlertDialog(
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10.r)),
-                                          title: Text(
-                                            'Info',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.black,
-                                                fontSize: 16.sp,
-                                                fontWeight: FontWeight.bold),
-                                          ),
-                                          content: Text(
-                                            'Anda yakin ingin mengajukan pelaporan ?',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.grey,
-                                                fontSize: 14.sp,
-                                                fontWeight: FontWeight.w500),
-                                          ),
-                                          actions: <Widget>[
-                                            TextButton(
-                                              onPressed: () => Get.back(),
-                                              child: Text(
-                                                'Kembali',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                            TextButton(
-                                              onPressed: () {
-                                                Get.back();
-                                                Get.back();
-                                                Get.snackbar("Berhasil",
-                                                    "Laporan Anda akan direspon dalam 2x 24 jam",
-                                                    snackPosition:
-                                                        SnackPosition.BOTTOM,
-                                                    colorText:
-                                                        AppColors.appGreenlight,
-                                                    backgroundColor: AppColors
-                                                        .appGreenlight
-                                                        .withOpacity(0.4));
-                                              },
-                                              child: Text(
-                                                'OK',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                          ],
+                              ),
+                              Container(
+                                margin: EdgeInsets.symmetric(
+                                    horizontal: 15.h, vertical: 5.w),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                    border: Border.all(color: Colors.grey)),
+                                child: ListTile(
+                                  onTap: () {
+                                    showDialog(
+                                      context: context,
+                                      builder: (context) => AlertDialog(
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10.r)),
+                                        title: Text(
+                                          'Info',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.black,
+                                              fontSize: 16.sp,
+                                              fontWeight: FontWeight.bold),
                                         ),
-                                      );
-                                    },
-                                    title: Text(
-                                      "Menganding unsur Suku, Agama, Ras, dan Antargolongan",
-                                      style: GoogleFonts.quicksand(
-                                          fontSize: 12,
-                                          fontWeight: FontWeight.bold),
-                                    ),
+                                        content: Text(
+                                          'Anda yakin ingin mengajukan pelaporan ?',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.grey,
+                                              fontSize: 14.sp,
+                                              fontWeight: FontWeight.w500),
+                                        ),
+                                        actions: <Widget>[
+                                          TextButton(
+                                            onPressed: () => Get.back(),
+                                            child: Text(
+                                              'Kembali',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                          TextButton(
+                                            onPressed: () {
+                                              Get.back();
+                                              Get.back();
+                                              Get.snackbar("Berhasil",
+                                                  "Laporan Anda akan direspon dalam 2x 24 jam",
+                                                  snackPosition:
+                                                      SnackPosition.BOTTOM,
+                                                  colorText:
+                                                      AppColors.appGreenlight,
+                                                  backgroundColor: AppColors
+                                                      .appGreenlight
+                                                      .withOpacity(0.4));
+                                            },
+                                            child: Text(
+                                              'OK',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  },
+                                  title: Text(
+                                    "Mengandiung unsur HOAX",
+                                    style: GoogleFonts.quicksand(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.bold),
                                   ),
                                 ),
-                                Container(
-                                  margin: EdgeInsets.symmetric(
-                                      horizontal: 15.h, vertical: 5.w),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color: Colors.grey)),
-                                  child: ListTile(
-                                    onTap: () {
-                                      showDialog(
-                                        context: context,
-                                        builder: (context) => AlertDialog(
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10.r)),
-                                          title: Text(
-                                            'Info',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.black,
-                                                fontSize: 16.sp,
-                                                fontWeight: FontWeight.bold),
-                                          ),
-                                          content: Text(
-                                            'Anda yakin ingin mengajukan pelaporan ?',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.grey,
-                                                fontSize: 14.sp,
-                                                fontWeight: FontWeight.w500),
-                                          ),
-                                          actions: <Widget>[
-                                            TextButton(
-                                              onPressed: () => Get.back(),
-                                              child: Text(
-                                                'Kembali',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                            TextButton(
-                                              onPressed: () {
-                                                Get.back();
-                                                Get.back();
-                                                Get.snackbar("Berhasil",
-                                                    "Laporan Anda akan direspon dalam 2x 24 jam",
-                                                    snackPosition:
-                                                        SnackPosition.BOTTOM,
-                                                    colorText:
-                                                        AppColors.appGreenlight,
-                                                    backgroundColor: AppColors
-                                                        .appGreenlight
-                                                        .withOpacity(0.4));
-                                              },
-                                              child: Text(
-                                                'OK',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                          ],
+                              ),
+                              Container(
+                                margin: EdgeInsets.symmetric(
+                                    horizontal: 15.w, vertical: 5.h),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                    border: Border.all(color: Colors.grey)),
+                                child: ListTile(
+                                  onTap: () {
+                                    showDialog(
+                                      context: context,
+                                      builder: (context) => AlertDialog(
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10.r)),
+                                        title: Text(
+                                          'Info',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.black,
+                                              fontSize: 16.sp,
+                                              fontWeight: FontWeight.bold),
                                         ),
-                                      );
-                                    },
-                                    title: Text(
-                                      "Mengandiung unsur HOAX",
-                                      style: GoogleFonts.quicksand(
-                                          fontSize: 12,
-                                          fontWeight: FontWeight.bold),
-                                    ),
+                                        content: Text(
+                                          'Anda yakin ingin mengajukan pelaporan ?',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.grey,
+                                              fontSize: 14.sp,
+                                              fontWeight: FontWeight.w500),
+                                        ),
+                                        actions: <Widget>[
+                                          TextButton(
+                                            onPressed: () => Get.back(),
+                                            child: Text(
+                                              'Kembali',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                          TextButton(
+                                            onPressed: () {
+                                              Get.back();
+                                              Get.back();
+                                              Get.snackbar("Berhasil",
+                                                  "Laporan Anda akan direspon dalam 2x 24 jam",
+                                                  snackPosition:
+                                                      SnackPosition.BOTTOM,
+                                                  colorText:
+                                                      AppColors.appGreenlight,
+                                                  backgroundColor: AppColors
+                                                      .appGreenlight
+                                                      .withOpacity(0.4));
+                                            },
+                                            child: Text(
+                                              'OK',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  },
+                                  title: Text(
+                                    "Melanggar penulisan postingan karena melanggar aturan",
+                                    style: GoogleFonts.quicksand(
+                                        fontSize: 12.sp,
+                                        fontWeight: FontWeight.bold),
                                   ),
                                 ),
-                                Container(
-                                  margin: EdgeInsets.symmetric(
-                                      horizontal: 15.w, vertical: 5.h),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color: Colors.grey)),
-                                  child: ListTile(
-                                    onTap: () {
-                                      showDialog(
-                                        context: context,
-                                        builder: (context) => AlertDialog(
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10.r)),
-                                          title: Text(
-                                            'Info',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.black,
-                                                fontSize: 16.sp,
-                                                fontWeight: FontWeight.bold),
-                                          ),
-                                          content: Text(
-                                            'Anda yakin ingin mengajukan pelaporan ?',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.grey,
-                                                fontSize: 14.sp,
-                                                fontWeight: FontWeight.w500),
-                                          ),
-                                          actions: <Widget>[
-                                            TextButton(
-                                              onPressed: () => Get.back(),
-                                              child: Text(
-                                                'Kembali',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                            TextButton(
-                                              onPressed: () {
-                                                Get.back();
-                                                Get.back();
-                                                Get.snackbar("Berhasil",
-                                                    "Laporan Anda akan direspon dalam 2x 24 jam",
-                                                    snackPosition:
-                                                        SnackPosition.BOTTOM,
-                                                    colorText:
-                                                        AppColors.appGreenlight,
-                                                    backgroundColor: AppColors
-                                                        .appGreenlight
-                                                        .withOpacity(0.4));
-                                              },
-                                              child: Text(
-                                                'OK',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                          ],
+                              ),
+                              Container(
+                                margin: EdgeInsets.symmetric(
+                                    horizontal: 15.w, vertical: 5.h),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                    border: Border.all(color: Colors.grey)),
+                                child: ListTile(
+                                  onTap: () {
+                                    showDialog(
+                                      context: context,
+                                      builder: (context) => AlertDialog(
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius:
+                                                BorderRadius.circular(10.r)),
+                                        title: Text(
+                                          'Info',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.black,
+                                              fontSize: 16.sp,
+                                              fontWeight: FontWeight.bold),
                                         ),
-                                      );
-                                    },
-                                    title: Text(
-                                      "Melanggar penulisan postingan karena melanggar aturan",
-                                      style: GoogleFonts.quicksand(
-                                          fontSize: 12.sp,
-                                          fontWeight: FontWeight.bold),
-                                    ),
+                                        content: Text(
+                                          'Anda yakin ingin mengajukan pelaporan ?',
+                                          style: GoogleFonts.quicksand(
+                                              color: Colors.grey,
+                                              fontSize: 14.sp,
+                                              fontWeight: FontWeight.w500),
+                                        ),
+                                        actions: <Widget>[
+                                          TextButton(
+                                            onPressed: () => Get.back(),
+                                            child: Text(
+                                              'Kembali',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                          TextButton(
+                                            onPressed: () {
+                                              Get.back();
+                                              Get.back();
+                                              Get.snackbar("Berhasil",
+                                                  "Laporan Anda akan direspon dalam 2x 24 jam",
+                                                  snackPosition:
+                                                      SnackPosition.BOTTOM,
+                                                  colorText:
+                                                      AppColors.appGreenlight,
+                                                  backgroundColor: AppColors
+                                                      .appGreenlight
+                                                      .withOpacity(0.4));
+                                            },
+                                            child: Text(
+                                              'OK',
+                                              style: GoogleFonts.quicksand(),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  },
+                                  title: Text(
+                                    "Blokir user ini",
+                                    style: GoogleFonts.quicksand(
+                                        fontSize: 12.sp,
+                                        fontWeight: FontWeight.bold),
                                   ),
                                 ),
-                                Container(
-                                  margin: EdgeInsets.symmetric(
-                                      horizontal: 15.w, vertical: 5.h),
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      border: Border.all(color: Colors.grey)),
-                                  child: ListTile(
-                                    onTap: () {
-                                      showDialog(
-                                        context: context,
-                                        builder: (context) => AlertDialog(
-                                          shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10.r)),
-                                          title: Text(
-                                            'Info',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.black,
-                                                fontSize: 16.sp,
-                                                fontWeight: FontWeight.bold),
-                                          ),
-                                          content: Text(
-                                            'Anda yakin ingin mengajukan pelaporan ?',
-                                            style: GoogleFonts.quicksand(
-                                                color: Colors.grey,
-                                                fontSize: 14.sp,
-                                                fontWeight: FontWeight.w500),
-                                          ),
-                                          actions: <Widget>[
-                                            TextButton(
-                                              onPressed: () => Get.back(),
-                                              child: Text(
-                                                'Kembali',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                            TextButton(
-                                              onPressed: () {
-                                                Get.back();
-                                                Get.back();
-                                                Get.snackbar("Berhasil",
-                                                    "Laporan Anda akan direspon dalam 2x 24 jam",
-                                                    snackPosition:
-                                                        SnackPosition.BOTTOM,
-                                                    colorText:
-                                                        AppColors.appGreenlight,
-                                                    backgroundColor: AppColors
-                                                        .appGreenlight
-                                                        .withOpacity(0.4));
-                                              },
-                                              child: Text(
-                                                'OK',
-                                                style: GoogleFonts.quicksand(),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      );
-                                    },
-                                    title: Text(
-                                      "Blokir user ini",
-                                      style: GoogleFonts.quicksand(
-                                          fontSize: 12.sp,
-                                          fontWeight: FontWeight.bold),
-                                    ),
-                                  ),
-                                )
-                              ]),
-                            )),
+                              )
+                            ])),
                   ),
                 );
               },
@@ -603,243 +599,240 @@ class PopupPengaturan extends StatelessWidget {
                     builder: (context, scrollController) =>
                         SingleChildScrollView(
                       controller: scrollController,
-                      child: Container(
-                        child: Column(
-                          children: [
-                            Padding(
-                              padding: EdgeInsets.symmetric(
-                                  horizontal: 10.w, vertical: 10.h),
-                              child: Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(
-                                    "Laporkan ke sekolah",
-                                    style: GoogleFonts.quicksand(
-                                      color: const Color(0xff155A5F),
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 18.sp,
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 10.w, vertical: 10.h),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Laporkan ke sekolah",
+                                  style: GoogleFonts.quicksand(
+                                    color: const Color(0xff155A5F),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18.sp,
+                                  ),
+                                ),
+                                InkWell(
+                                  onTap: () => Get.back(),
+                                  child: CircleAvatar(
+                                    radius: 10,
+                                    backgroundColor: const Color(0xffF97276)
+                                        .withOpacity(0.6),
+                                    child: Icon(
+                                      Icons.close,
+                                      color: Colors.red,
+                                      size: 15.w,
                                     ),
                                   ),
-                                  InkWell(
-                                    onTap: () => Get.back(),
-                                    child: CircleAvatar(
-                                      radius: 10,
-                                      backgroundColor: const Color(0xffF97276)
-                                          .withOpacity(0.6),
-                                      child: Icon(
-                                        Icons.close,
-                                        color: Colors.red,
-                                        size: 15.w,
-                                      ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.symmetric(
+                                horizontal: 15.w, vertical: 5.h),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10.r),
+                                border: Border.all(color: Colors.grey)),
+                            child: ListTile(
+                              onTap: () {
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AlertDialog(
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(10.r)),
+                                    title: Text(
+                                      'Info',
+                                      style: GoogleFonts.quicksand(
+                                          color: Colors.black,
+                                          fontSize: 16.sp,
+                                          fontWeight: FontWeight.bold),
                                     ),
-                                  )
-                                ],
+                                    content: Text(
+                                      'Anda yakin ingin mengajukan pelaporan ?',
+                                      style: GoogleFonts.quicksand(
+                                          color: Colors.grey,
+                                          fontSize: 14.sp,
+                                          fontWeight: FontWeight.w500),
+                                    ),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () => Get.back(),
+                                        child: Text(
+                                          'Kembali',
+                                          style: GoogleFonts.quicksand(),
+                                        ),
+                                      ),
+                                      TextButton(
+                                        onPressed: () {
+                                          Get.back();
+                                          Get.back();
+                                          Get.snackbar("Berhasil",
+                                              "Laporan Anda akan direspon dalam 2x 24 jam",
+                                              snackPosition:
+                                                  SnackPosition.BOTTOM,
+                                              colorText:
+                                                  AppColors.appGreenlight,
+                                              backgroundColor: AppColors
+                                                  .appGreenlight
+                                                  .withOpacity(0.4));
+                                        },
+                                        child: Text(
+                                          'OK',
+                                          style: GoogleFonts.quicksand(),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              },
+                              title: Text(
+                                "Menganding unsur kekerasan, obat-obat terlarang dan sex bebas",
+                                style: GoogleFonts.quicksand(
+                                    fontSize: 12.sp,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ),
-                            Container(
-                              margin: EdgeInsets.symmetric(
-                                  horizontal: 15.w, vertical: 5.h),
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10.r),
-                                  border: Border.all(color: Colors.grey)),
-                              child: ListTile(
-                                onTap: () {
-                                  showDialog(
-                                    context: context,
-                                    builder: (context) => AlertDialog(
-                                      shape: RoundedRectangleBorder(
-                                          borderRadius:
-                                              BorderRadius.circular(10.r)),
-                                      title: Text(
-                                        'Info',
-                                        style: GoogleFonts.quicksand(
-                                            color: Colors.black,
-                                            fontSize: 16.sp,
-                                            fontWeight: FontWeight.bold),
-                                      ),
-                                      content: Text(
-                                        'Anda yakin ingin mengajukan pelaporan ?',
-                                        style: GoogleFonts.quicksand(
-                                            color: Colors.grey,
-                                            fontSize: 14.sp,
-                                            fontWeight: FontWeight.w500),
-                                      ),
-                                      actions: <Widget>[
-                                        TextButton(
-                                          onPressed: () => Get.back(),
-                                          child: Text(
-                                            'Kembali',
-                                            style: GoogleFonts.quicksand(),
-                                          ),
-                                        ),
-                                        TextButton(
-                                          onPressed: () {
-                                            Get.back();
-                                            Get.back();
-                                            Get.snackbar("Berhasil",
-                                                "Laporan Anda akan direspon dalam 2x 24 jam",
-                                                snackPosition:
-                                                    SnackPosition.BOTTOM,
-                                                colorText:
-                                                    AppColors.appGreenlight,
-                                                backgroundColor: AppColors
-                                                    .appGreenlight
-                                                    .withOpacity(0.4));
-                                          },
-                                          child: Text(
-                                            'OK',
-                                            style: GoogleFonts.quicksand(),
-                                          ),
-                                        ),
-                                      ],
+                          ),
+                          Container(
+                            margin: EdgeInsets.symmetric(
+                                horizontal: 15.w, vertical: 5.h),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10.r),
+                                border: Border.all(color: Colors.grey)),
+                            child: ListTile(
+                              onTap: () {
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AlertDialog(
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(10.r)),
+                                    title: Text(
+                                      'Info',
+                                      style: GoogleFonts.quicksand(
+                                          color: Colors.black,
+                                          fontSize: 16.sp,
+                                          fontWeight: FontWeight.bold),
                                     ),
-                                  );
-                                },
-                                title: Text(
-                                  "Menganding unsur kekerasan, obat-obat terlarang dan sex bebas",
-                                  style: GoogleFonts.quicksand(
-                                      fontSize: 12.sp,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                                    content: Text(
+                                      'Anda yakin ingin mengajukan pelaporan ?',
+                                      style: GoogleFonts.quicksand(
+                                          color: Colors.grey,
+                                          fontSize: 14.sp,
+                                          fontWeight: FontWeight.w500),
+                                    ),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () => Get.back(),
+                                        child: Text(
+                                          'Kembali',
+                                          style: GoogleFonts.quicksand(),
+                                        ),
+                                      ),
+                                      TextButton(
+                                        onPressed: () {
+                                          Get.back();
+                                          Get.back();
+                                          Get.snackbar("Berhasil",
+                                              "Laporan Anda akan direspon dalam 2x 24 jam",
+                                              snackPosition:
+                                                  SnackPosition.BOTTOM,
+                                              colorText:
+                                                  AppColors.appGreenlight,
+                                              backgroundColor: AppColors
+                                                  .appGreenlight
+                                                  .withOpacity(0.4));
+                                        },
+                                        child: Text(
+                                          'OK',
+                                          style: GoogleFonts.quicksand(),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              },
+                              title: Text(
+                                "Mengandiung unsur kata tidak pantas",
+                                style: GoogleFonts.quicksand(
+                                    fontSize: 12.sp,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ),
-                            Container(
-                              margin: EdgeInsets.symmetric(
-                                  horizontal: 15.w, vertical: 5.h),
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10.r),
-                                  border: Border.all(color: Colors.grey)),
-                              child: ListTile(
-                                onTap: () {
-                                  showDialog(
-                                    context: context,
-                                    builder: (context) => AlertDialog(
-                                      shape: RoundedRectangleBorder(
-                                          borderRadius:
-                                              BorderRadius.circular(10.r)),
-                                      title: Text(
-                                        'Info',
-                                        style: GoogleFonts.quicksand(
-                                            color: Colors.black,
-                                            fontSize: 16.sp,
-                                            fontWeight: FontWeight.bold),
-                                      ),
-                                      content: Text(
-                                        'Anda yakin ingin mengajukan pelaporan ?',
-                                        style: GoogleFonts.quicksand(
-                                            color: Colors.grey,
-                                            fontSize: 14.sp,
-                                            fontWeight: FontWeight.w500),
-                                      ),
-                                      actions: <Widget>[
-                                        TextButton(
-                                          onPressed: () => Get.back(),
-                                          child: Text(
-                                            'Kembali',
-                                            style: GoogleFonts.quicksand(),
-                                          ),
-                                        ),
-                                        TextButton(
-                                          onPressed: () {
-                                            Get.back();
-                                            Get.back();
-                                            Get.snackbar("Berhasil",
-                                                "Laporan Anda akan direspon dalam 2x 24 jam",
-                                                snackPosition:
-                                                    SnackPosition.BOTTOM,
-                                                colorText:
-                                                    AppColors.appGreenlight,
-                                                backgroundColor: AppColors
-                                                    .appGreenlight
-                                                    .withOpacity(0.4));
-                                          },
-                                          child: Text(
-                                            'OK',
-                                            style: GoogleFonts.quicksand(),
-                                          ),
-                                        ),
-                                      ],
+                          ),
+                          Container(
+                            margin: EdgeInsets.symmetric(
+                                horizontal: 15.w, vertical: 5.h),
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10.r),
+                                border: Border.all(color: Colors.grey)),
+                            child: ListTile(
+                              onTap: () {
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AlertDialog(
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(10.r)),
+                                    title: Text(
+                                      'Info',
+                                      style: GoogleFonts.quicksand(
+                                          color: Colors.black,
+                                          fontSize: 16.sp,
+                                          fontWeight: FontWeight.bold),
                                     ),
-                                  );
-                                },
-                                title: Text(
-                                  "Mengandiung unsur kata tidak pantas",
-                                  style: GoogleFonts.quicksand(
-                                      fontSize: 12.sp,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                                    content: Text(
+                                      'Anda yakin ingin mengajukan pelaporan ?',
+                                      style: GoogleFonts.quicksand(
+                                          color: Colors.grey,
+                                          fontSize: 14.sp,
+                                          fontWeight: FontWeight.w500),
+                                    ),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () => Get.back(),
+                                        child: Text(
+                                          'Kembali',
+                                          style: GoogleFonts.quicksand(),
+                                        ),
+                                      ),
+                                      TextButton(
+                                        onPressed: () {
+                                          Get.back();
+                                          Get.back();
+                                          Get.snackbar("Berhasil",
+                                              "Laporan Anda akan direspon dalam 2x 24 jam",
+                                              snackPosition:
+                                                  SnackPosition.BOTTOM,
+                                              colorText:
+                                                  AppColors.appGreenlight,
+                                              backgroundColor: AppColors
+                                                  .appGreenlight
+                                                  .withOpacity(0.4));
+                                        },
+                                        child: Text(
+                                          'OK',
+                                          style: GoogleFonts.quicksand(),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              },
+                              title: Text(
+                                "Mengandung unsur bullying",
+                                style: GoogleFonts.quicksand(
+                                    fontSize: 12.sp,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ),
-                            Container(
-                              margin: EdgeInsets.symmetric(
-                                  horizontal: 15.w, vertical: 5.h),
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10.r),
-                                  border: Border.all(color: Colors.grey)),
-                              child: ListTile(
-                                onTap: () {
-                                  showDialog(
-                                    context: context,
-                                    builder: (context) => AlertDialog(
-                                      shape: RoundedRectangleBorder(
-                                          borderRadius:
-                                              BorderRadius.circular(10.r)),
-                                      title: Text(
-                                        'Info',
-                                        style: GoogleFonts.quicksand(
-                                            color: Colors.black,
-                                            fontSize: 16.sp,
-                                            fontWeight: FontWeight.bold),
-                                      ),
-                                      content: Text(
-                                        'Anda yakin ingin mengajukan pelaporan ?',
-                                        style: GoogleFonts.quicksand(
-                                            color: Colors.grey,
-                                            fontSize: 14.sp,
-                                            fontWeight: FontWeight.w500),
-                                      ),
-                                      actions: <Widget>[
-                                        TextButton(
-                                          onPressed: () => Get.back(),
-                                          child: Text(
-                                            'Kembali',
-                                            style: GoogleFonts.quicksand(),
-                                          ),
-                                        ),
-                                        TextButton(
-                                          onPressed: () {
-                                            Get.back();
-                                            Get.back();
-                                            Get.snackbar("Berhasil",
-                                                "Laporan Anda akan direspon dalam 2x 24 jam",
-                                                snackPosition:
-                                                    SnackPosition.BOTTOM,
-                                                colorText:
-                                                    AppColors.appGreenlight,
-                                                backgroundColor: AppColors
-                                                    .appGreenlight
-                                                    .withOpacity(0.4));
-                                          },
-                                          child: Text(
-                                            'OK',
-                                            style: GoogleFonts.quicksand(),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  );
-                                },
-                                title: Text(
-                                  "Mengandung unsur bullying",
-                                  style: GoogleFonts.quicksand(
-                                      fontSize: 12.sp,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
                     ),
                   ),

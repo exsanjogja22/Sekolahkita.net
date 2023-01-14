@@ -238,7 +238,9 @@ class DetailMateriController extends GetxController
       'id_materi': id,
       'durasi_baca': time.value.toString()
     };
-    print("Durasi Baca : ${time.value} s");
+    if (kDebugMode) {
+      print("Durasi Baca : ${time.value} s");
+    }
     final dataResponse = await _materiRepositori.postMateriKunjungan(body);
     if (dataResponse != null) {
       if (dataResponse.statusResponse == StatusResponse.success) {
@@ -246,9 +248,13 @@ class DetailMateriController extends GetxController
         if (it['status'] == true) {
           time.value = 0;
           timer!.cancel();
-          print("Berhasil Mengirim Durasi");
+          if (kDebugMode) {
+            print("Berhasil Mengirim Durasi");
+          }
         } else {
-          print("------Gagal------");
+          if (kDebugMode) {
+            print("------Gagal------");
+          }
         }
       } else {
         if (kDebugMode) {
