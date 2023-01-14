@@ -60,7 +60,7 @@ class EKonselingView extends GetView<EKonselingController> {
               children: [
                 Expanded(
                   child: Text(
-                    "Fitur ini akan segera hadir ....",
+                    "Fitur ini akan segera hadir, Untuk Fitur Lebih lengkapnya silahkan kunjungi halaman Web Resmi Sekolah ..!",
                     style: GoogleFonts.quicksand(
                       fontSize: 14.sp,
                       fontWeight: FontWeight.bold,

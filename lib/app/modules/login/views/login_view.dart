@@ -37,16 +37,18 @@ class LoginView extends GetView<LoginController> {
               title: Text(
                 'Keluar ?',
                 style: GoogleFonts.quicksand(
-                    color: Colors.black,
-                    fontSize: 16.sp,
-                    fontWeight: FontWeight.bold),
+                  color: Colors.black,
+                  fontSize: 16.sp,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               content: Text(
                 'Apakah anda yakin ingin keluar dari aplikasi Sekolahkita.net ? tekan batal untuk kembali ke halaman atau "Ok" untuk keluar',
                 style: GoogleFonts.quicksand(
-                    color: Colors.grey,
-                    fontSize: 14.sp,
-                    fontWeight: FontWeight.w500),
+                  color: Colors.grey,
+                  fontSize: 14.sp,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
               actions: <Widget>[
                 TextButton(
