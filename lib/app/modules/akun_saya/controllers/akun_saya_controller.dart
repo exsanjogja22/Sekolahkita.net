@@ -9,8 +9,8 @@ import 'package:get/get.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
-import 'package:smkn1contoh/app/config/app_colors.dart';
 
+import '../../../config/app_colors.dart';
 import '../../../data/models/profil_model.dart';
 import '../../../data/providers/network/api_repository.dart';
 import '../../../data/providers/network/repository/profil_repositori.dart';
@@ -27,8 +27,11 @@ class AkunSayaController extends GetxController {
   RxString photo = "".obs;
   RxString tempatLahir = "Set Sekarang".obs;
   RxString tanggalLahir = "Set Sekarang".obs;
+  RxString email = "".obs;
   File? file;
   RxString tanggalLahir1 = "Set Sekarang".obs;
+
+  RxBool isLoadingImg = false.obs;
 
   final ProfilRepisitori _profilRepisitori = ProfilRepisitori();
 
@@ -38,10 +41,17 @@ class AkunSayaController extends GetxController {
       if (dataResponse.statusResponse == StatusResponse.success) {
         final data =
             Profil.fromJson(jsonDecode(dataResponse.response!)).biodata;
+
         if (data!.namaSiswa != "") {
           nama.value = data.namaSiswa!;
         } else {
-          nama.value = "Set Sekarang";
+          nama.value = "No Name";
+        }
+
+        if (data.email != "") {
+          email.value = data.email!;
+        } else {
+          email.value = "Set Sekarang";
         }
 
         if (data.sekolahAsal != "") {
@@ -133,6 +143,7 @@ class AkunSayaController extends GetxController {
   }
 
   Future<void> postData(File fileImg) async {
+    isLoadingImg.value = true;
     Map<String, String> data = {};
     final dataResponse = await _profilRepisitori.postFotoProfil(data, fileImg);
     if (dataResponse != null) {
@@ -141,11 +152,15 @@ class AkunSayaController extends GetxController {
         if (it["status"] == true) {
           await getDataProfil();
           update();
+          isLoadingImg.value = false;
+
           Get.snackbar("Berhasil", "${it["pesan"]}",
               snackPosition: SnackPosition.BOTTOM,
               colorText: AppColors.appGreenlight,
               backgroundColor: AppColors.appGreenlight.withOpacity(0.4));
         } else {
+          isLoadingImg.value = false;
+
           Get.snackbar("Gagal", "${it["pesan"]}",
               snackPosition: SnackPosition.BOTTOM,
               colorText: Colors.red,
@@ -153,10 +168,14 @@ class AkunSayaController extends GetxController {
         }
       } else {
         if (kDebugMode) {
+          isLoadingImg.value = false;
+
           print(dataResponse.message);
         }
       }
     } else {
+      isLoadingImg.value = false;
+
       Get.snackbar("Gagal", "Koneksi Internet tidak terhubung",
           snackPosition: SnackPosition.BOTTOM,
           colorText: Colors.red,

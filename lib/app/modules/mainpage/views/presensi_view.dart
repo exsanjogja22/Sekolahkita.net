@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:showcaseview/showcaseview.dart';
-import 'package:smkn1contoh/app/config/app_colors.dart';
 
+import '../../../config/app_colors.dart';
 import '../../../config/app_sisze.dart';
 import '../../../routes/app_pages.dart';
 import '../controllers/presensi_controller.dart';

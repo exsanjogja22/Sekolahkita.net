@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:smkn1contoh/app/data/models/riport_point_pelangaran_model.dart';
 
 import '../../../data/models/presensi/riport_presensi_model.dart';
 import '../../../data/models/profil_model.dart';
 import '../../../data/models/riport_keaktifan_kbm_model.dart';
 import '../../../data/models/riport_kelas_online_model.dart';
+import '../../../data/models/riport_point_pelangaran_model.dart';
 import '../../../data/models/tahun_ajar_model.dart';
 import '../../../data/providers/network/api_repository.dart';
 import '../../../data/providers/network/repository/profil_repositori.dart';

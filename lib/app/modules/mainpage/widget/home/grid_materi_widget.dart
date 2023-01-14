@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smkn1contoh/app/config/app_colors.dart';
 
+import '../../../../config/app_colors.dart';
 import '../../../../data/models/materi/mapel_model.dart';
 
 import '../../../list_materi/views/list_materi_view.dart';

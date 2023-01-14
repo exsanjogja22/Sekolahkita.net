@@ -196,7 +196,9 @@ class SettingView extends GetView<SettingController> {
                     ),
                     ListTile(
                       minLeadingWidth: 0,
-                      onTap: () {},
+                      onTap: () {
+                        Get.toNamed(Routes.RISET_PASSWORD);
+                      },
                       title: Text(
                         "Ubah Password",
                         style: GoogleFonts.quicksand(
@@ -302,7 +304,9 @@ class SettingView extends GetView<SettingController> {
                     ),
                     ListTile(
                       minLeadingWidth: 0,
-                      onTap: () {},
+                      onTap: () {
+                        controller.launchURL("https://sekolahkita.net/");
+                      },
                       title: Text(
                         "About Me",
                         style: GoogleFonts.quicksand(

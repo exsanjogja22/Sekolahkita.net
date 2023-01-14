@@ -4,8 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:smkn1contoh/app/data/models/notifikasi_model.dart';
-import 'package:smkn1contoh/app/data/providers/network/repository/notifikasi_repositori.dart';
+import '../../../data/models/notifikasi_model.dart';
+import '../../../data/providers/network/repository/notifikasi_repositori.dart';
 
 import '../../../data/providers/network/api_repository.dart';
 

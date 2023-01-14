@@ -11,4 +11,5 @@ class PathAPIEndpoint {
   static String get jadwal => "api/jadwal";
   static String get report => "api/report";
   static String get notifikasi => "api/notifikasi";
+  static String get ubahPassword => "api/siswa/password";
 }

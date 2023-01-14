@@ -4,13 +4,15 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smkn1contoh/app/config/app_image.dart';
-import 'package:smkn1contoh/app/modules/detail_tugas/views/detail_tugas_view.dart';
-import 'package:smkn1contoh/app/routes/app_pages.dart';
+
+import '../../../config/app_image.dart';
+import '../../../modules/detail_tugas/views/detail_tugas_view.dart';
+
 import '../../../config/app_colors.dart';
 import '../../../config/app_sisze.dart';
 import '../../../data/models/tugas/get_tugas_model.dart';
 import '../../../data/models/tugas/statistik_tugas_model.dart';
+import '../../../routes/app_pages.dart';
 import '../controllers/tugas_controller.dart';
 
 class TugasView extends GetView<TugasController> {

@@ -5,8 +5,8 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smkn1contoh/app/config/app_colors.dart';
 
+import '../../../config/app_colors.dart';
 import '../../../data/models/notifikasi_model.dart';
 import '../../../routes/app_pages.dart';
 import '../controllers/notifikasi_controller.dart';

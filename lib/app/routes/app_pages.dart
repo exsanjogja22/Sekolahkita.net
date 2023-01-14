@@ -38,6 +38,8 @@ import '../modules/pdf_helper/bindings/pdf_helper_binding.dart';
 import '../modules/pdf_helper/views/pdf_helper_view.dart';
 import '../modules/profil/bindings/profil_binding.dart';
 import '../modules/profil/views/profil_view.dart';
+import '../modules/riset_password/bindings/riset_password_binding.dart';
+import '../modules/riset_password/views/riset_password_view.dart';
 import '../modules/statistik/bindings/statistik_binding.dart';
 import '../modules/statistik/views/statistik_view.dart';
 import '../modules/status/bindings/status_binding.dart';
@@ -185,6 +187,11 @@ class AppPages {
       name: _Paths.KEBIJAKAN_PRIVASI,
       page: () => const KebijakanPrivasiView(),
       binding: KebijakanPrivasiBinding(),
+    ),
+    GetPage(
+      name: _Paths.RISET_PASSWORD,
+      page: () => const RisetPasswordView(),
+      binding: RisetPasswordBinding(),
     ),
   ];
 }

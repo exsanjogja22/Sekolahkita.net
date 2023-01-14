@@ -30,7 +30,7 @@ class EKonselingView extends GetView<EKonselingController> {
             Row(
               children: [
                 Text(
-                  "Note ?",
+                  "Pemberitahuan ",
                   style: GoogleFonts.quicksand(
                     fontSize: 25.sp,
                     fontWeight: FontWeight.bold,
@@ -60,7 +60,7 @@ class EKonselingView extends GetView<EKonselingController> {
               children: [
                 Expanded(
                   child: Text(
-                    "Fitur ini akan segera hadir, Untuk Fitur Lebih lengkapnya silahkan kunjungi halaman Web Resmi Sekolah ..!",
+                    "Fitur e-Konseling tersedia di web based, silahkan login menggunakan akun Anda via web browser untuk mengakses fitur ini. Kamu bisa melakukan konseling dengan guru BK dan juga interaksi pribadi dengan seluruh warga sekolah.",
                     style: GoogleFonts.quicksand(
                       fontSize: 14.sp,
                       fontWeight: FontWeight.bold,

@@ -4,6 +4,7 @@ import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
+
 import '../../akun_saya/views/akun_saya_view.dart';
 import '../../../config/app_colors.dart';
 import '../../../data/models/materi/materi_detail_model.dart';

@@ -31,6 +31,7 @@ class Biodata {
   String? alamatAsli;
   String? alamatTinggal;
   String? phone;
+  String? email;
   String? sekolahAsal;
   String? tahunMasuk;
   String? namaIbu;
@@ -48,6 +49,7 @@ class Biodata {
       this.alamatAsli,
       this.alamatTinggal,
       this.phone,
+      this.email,
       this.sekolahAsal,
       this.tahunMasuk,
       this.namaIbu,
@@ -65,6 +67,7 @@ class Biodata {
     alamatAsli = json['alamat_asli'];
     alamatTinggal = json['alamat_tinggal'];
     phone = json['phone'];
+    email = json['email'];
     sekolahAsal = json['sekolah_asal'];
     tahunMasuk = json['tahun_masuk'];
     namaIbu = json['nama_ibu'];
@@ -84,6 +87,7 @@ class Biodata {
     data['alamat_asli'] = alamatAsli;
     data['alamat_tinggal'] = alamatTinggal;
     data['phone'] = phone;
+    data['email'] = email;
     data['sekolah_asal'] = sekolahAsal;
     data['tahun_masuk'] = tahunMasuk;
     data['nama_ibu'] = namaIbu;

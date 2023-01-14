@@ -32,6 +32,7 @@ abstract class Routes {
   static const PDF_HELPER = _Paths.PDF_HELPER;
   static const AKUN_SAYA = _Paths.AKUN_SAYA;
   static const KEBIJAKAN_PRIVASI = _Paths.KEBIJAKAN_PRIVASI;
+  static const RISET_PASSWORD = _Paths.RISET_PASSWORD;
 }
 
 abstract class _Paths {
@@ -65,4 +66,6 @@ abstract class _Paths {
   static const PDF_HELPER = '/pdf-helper';
   static const AKUN_SAYA = '/akun-saya';
   static const KEBIJAKAN_PRIVASI = '/kebijakan-privasi';
+  static const HOME = '/home';
+  static const RISET_PASSWORD = '/riset-password';
 }

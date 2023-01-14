@@ -5,10 +5,10 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:lottie/lottie.dart';
-import 'package:smkn1contoh/app/config/app_image.dart';
 import 'package:timeline_tile/timeline_tile.dart';
 
 import '../../../config/app_colors.dart';
+import '../../../config/app_image.dart';
 import '../../../config/app_sisze.dart';
 import '../controllers/jadwal_controller.dart';
 

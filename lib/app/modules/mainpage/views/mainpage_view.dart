@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:smkn1contoh/app/modules/mainpage/views/forum_view.dart';
+
 import '../../../config/app_colors.dart';
 import '../../../modules/mainpage/views/presensi_view.dart';
 import '../../../modules/mainpage/views/setting_view.dart';
 import '../../../config/app_image.dart';
 import '../controllers/mainpage_controller.dart';
+import 'forum_view.dart';
 import 'home_view.dart';
 
 class MainpageView extends GetView<MainpageController> {

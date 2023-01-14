@@ -5,9 +5,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:smkn1contoh/app/data/models/profil_model.dart';
-
-import 'package:smkn1contoh/app/data/providers/network/api_repository.dart';
+import '../../../data/models/profil_model.dart';
+import '../../../data/providers/network/api_repository.dart';
 import '../../../data/models/status/status_model.dart';
 import '../../../data/providers/network/repository/profil_repositori.dart';
 import '../../../data/providers/network/repository/status_siswa_repositori.dart';

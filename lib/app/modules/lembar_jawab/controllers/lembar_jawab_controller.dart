@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
-import 'package:smkn1contoh/app/routes/app_pages.dart';
 
 import '../../../config/app_options.dart';
 import '../../../data/models/tugas/soal_pg_model.dart';
 import '../../../data/providers/network/api_repository.dart';
 import '../../../data/providers/network/repository/tugas_repositori.dart';
+import '../../../routes/app_pages.dart';
 
 class LembarJawabController extends GetxController {
   final scrollcontroller = ItemScrollController();

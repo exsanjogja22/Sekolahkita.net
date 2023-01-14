@@ -3,8 +3,8 @@ import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:smkn1contoh/app/config/app_colors.dart';
 
+import '../../../config/app_colors.dart';
 import '../controllers/kebijakan_privasi_controller.dart';
 
 class KebijakanPrivasiView extends GetView<KebijakanPrivasiController> {

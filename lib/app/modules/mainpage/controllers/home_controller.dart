@@ -77,7 +77,7 @@ class HomeController extends GetxController {
       "image": AppImage.menuHome0,
     },
     {
-      "title": "Berita & Informasi",
+      "title": "Berita",
       "image": AppImage.menuHome1,
     },
     {
@@ -85,7 +85,7 @@ class HomeController extends GetxController {
       "image": AppImage.menuHome2,
     },
     {
-      "title": "Nilai & Progres",
+      "title": "Progres saya",
       "image": AppImage.menuHome3,
     }
   ];

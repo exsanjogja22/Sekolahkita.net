@@ -3,14 +3,15 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:smkn1contoh/app/config/app_image.dart';
 
 import '../../../config/app_colors.dart';
+import '../../../config/app_image.dart';
 import '../bindings/akun_saya_binding.dart';
 import '../controllers/akun_saya_controller.dart';
 import 'agama_view.dart';
 import 'alamat_asli_view.dart';
 import 'alamat_tinggal_view.dart';
+import 'email_view.dart';
 import 'jenis_kelamin_view.dart';
 import 'tanggal_lahir_view.dart';
 import 'telepon_view.dart';
@@ -68,11 +69,26 @@ class AkunSayaView extends GetView<AkunSayaController> {
                           radius: 50.w,
                           backgroundColor: Colors.white,
                           child: controller.photo.value != ""
-                              ? CircleAvatar(
-                                  backgroundImage:
-                                      NetworkImage(controller.photo.value),
-                                  radius: 45.w,
-                                  backgroundColor: Colors.grey,
+                              ? Stack(
+                                  children: [
+                                    CircleAvatar(
+                                      backgroundImage:
+                                          NetworkImage(controller.photo.value),
+                                      radius: 45.w,
+                                      backgroundColor: Colors.grey,
+                                    ),
+                                    if (controller.isLoadingImg.isTrue)
+                                      const CircleAvatar(
+                                        radius: 45,
+                                        backgroundColor: Colors.transparent,
+                                        child: SizedBox(
+                                          height: 20,
+                                          width: 20,
+                                          child: CircularProgressIndicator(
+                                              color: Colors.white),
+                                        ),
+                                      )
+                                  ],
                                 )
                               : CircleAvatar(
                                   backgroundImage:
@@ -287,6 +303,32 @@ class AkunSayaView extends GetView<AkunSayaController> {
                             color: Colors.black,
                             fontSize: 12,
                           ),
+                        ),
+                      ),
+                      ListTile(
+                        onTap: () {
+                          Get.to(EmailView(controller.email.value),
+                              transition: Transition.rightToLeft,
+                              binding: AkunSayaBinding());
+                        },
+                        title: Text(
+                          "Email",
+                          style: GoogleFonts.quicksand(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 12.sp,
+                          ),
+                        ),
+                        subtitle: Text(
+                          controller.email.value.toString(),
+                          style: GoogleFonts.quicksand(
+                            color: Colors.black,
+                            fontSize: 12,
+                          ),
+                        ),
+                        trailing: Icon(
+                          Icons.arrow_forward_ios_rounded,
+                          size: 15.w,
                         ),
                       ),
                       ListTile(

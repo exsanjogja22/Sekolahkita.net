@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:smkn1contoh/app/modules/akun_saya/views/akun_saya_view.dart';
+import '../../../modules/akun_saya/views/akun_saya_view.dart';
 
 import '../../../config/app_colors.dart';
 import '../../../data/models/materi/materi_detail_model.dart';
